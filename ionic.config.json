@@ -1,0 +1,7 @@
+{
+  "name": "pokecho",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
