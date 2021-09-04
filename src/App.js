@@ -1,6 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
+import { IonApp, IonRouterOutlet, IonSplitPane, IonHeader, IonToolbar, IonMenuButton, IonTitle } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import Menu from "./components/Menu";
 import Home from './pages/Home';
 
 /* Core CSS required for Ionic components to work properly */
@@ -23,18 +24,30 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 const App = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
+    <IonApp>
+        <IonReactRouter>
+            <IonHeader>
+                <IonToolbar>
+                    <IonMenuButton slot="start" autoHide="false"/>
+                    <IonTitle>Pokecho</IonTitle>
+                </IonToolbar>
+            </IonHeader>
+
+            <IonSplitPane contentId="main">
+                <Menu />
+
+                <IonRouterOutlet id="main">
+                    <Route exact path="/home">
+                        <Home />
+                    </Route>
+
+                    <Route exact path="/">
+                        <Redirect to="/home" />
+                    </Route>
+                </IonRouterOutlet>
+            </IonSplitPane>
+        </IonReactRouter>
+    </IonApp>
 );
 
 export default App;
