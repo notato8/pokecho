@@ -1,0 +1,27 @@
+{
+    "name": "Pokémon Black & White",
+    "versions": [{
+        "id": "black",
+        "name": "Pokémon Black"
+    },
+    {
+        "id": "white",
+        "name": "Pokémon White"
+    }],
+    
+    "pokemons": {
+        "zigzagoon": {
+            "name": "Zigzagoon",
+            "types": ["normal"],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"],
+            "evolutions": ["linoone"]
+        },
+        "linoone": {
+            "name": "Linoone",
+            "types": ["normal"],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"]
+        }
+    }
+}

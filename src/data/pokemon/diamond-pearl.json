@@ -1,0 +1,80 @@
+{
+    "name": "Pokémon Diamond & Pearl",
+    "versions": [{
+        "id": "diamond",
+        "name": "Pokémon Diamond"
+    },
+    {
+        "id": "pearl",
+        "name": "Pokémon Pearl"
+    }],
+    "predecessor": "ruby-sapphire",
+
+    "pokemons": {
+        "pikachu": {
+            "moves": {
+                "level": {
+                    "1": ["thunder-shock", "growl"],
+                    "5": ["tail-whip"],
+                    "10": ["thunder-wave"],
+                    "13": ["quick-attack"],
+                    "18": ["double-team"],
+                    "21": ["slam"],
+                    "26": ["thunderbolt"],
+                    "29": ["feint"],
+                    "34": ["agility"],
+                    "37": ["discharge"],
+                    "42": ["light-screen"],
+                    "45": ["thunder"]
+                },
+                "tm": [
+                    "focus-punch",
+                    "toxic",
+                    "hidden-power",
+                    "light-screen",
+                    "protect",
+                    "rain-dance",
+                    "frustration",
+                    "iron-tail",
+                    "thunderbolt",
+                    "thunder",
+                    "return",
+                    "dig",
+                    "brick-break",
+                    "double-team",
+                    "shock-wave",
+                    "facade",
+                    "secret-power",
+                    "rest",
+                    "attract",
+                    "fling",
+                    "charge-beam",
+                    "endure",
+                    "flash",
+                    "thunder-wave",
+                    "captivate",
+                    "sleep-talk",
+                    "natural-gift",
+                    "grass-knot",
+                    "swagger",
+                    "substitute",
+                    "strength",
+                    "rock-smash"
+                ],
+                "egg": [
+                    "bide",
+                    "charge",
+                    "double-slap",
+                    "encore",
+                    "fake-out",
+                    "present",
+                    "reversal",
+                    "thunder-punch",
+                    "tickle",
+                    "volt-tackle",
+                    "wish"
+                ]
+            }
+        }
+    }
+}

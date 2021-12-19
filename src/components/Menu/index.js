@@ -1,15 +1,16 @@
 import { IonMenu, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem } from "@ionic/react";
+import games from "../../data/pokemon";
 
 export default function Menu() {
     return (
         <IonMenu contentId="main" type="overlay">
             <IonContent>
                 <IonList>
-                    <IonItem>Menu Item</IonItem>
-                    <IonItem>Menu Item</IonItem>
-                    <IonItem>Menu Item</IonItem>
-                    <IonItem>Menu Item</IonItem>
-                    <IonItem>Menu Item</IonItem>
+                    {Object.values(games).map(game => {
+                        return (
+                            <IonItem button>{game.name}</IonItem>
+                        )
+                    })}
                 </IonList>
             </IonContent>
         </IonMenu>

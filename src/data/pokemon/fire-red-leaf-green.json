@@ -1,0 +1,20 @@
+{
+    "name": "Pokémon Fire Red & Leaf Green",
+    "versions": [{
+        "id": "fire-red",
+        "name": "Pokémon Fire Red"
+    },
+    {
+        "id": "leaf-green",
+        "name": "Pokémon Leaf Green"
+    }],
+    "predecessor": "ruby-sapphire",
+
+    "pokemons": {
+        "pikachu": {
+            "moves": {
+                "1": []
+            }
+        }
+    }
+}

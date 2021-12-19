@@ -1,0 +1,236 @@
+{
+    "name": "Pokémon Ultra Sun & Ultra Moon",
+    "versions": [
+    {
+        "id": "ultra-sun",
+        "name": "Pokémon Ultra Sun"
+    },
+    {
+        "id": "ultra-moon",
+        "name": "Pokémon Ultra Moon"
+    }],
+    
+    "pokemons": {
+        "charizard": {
+            "name": "Charizard",
+            "forms": [{}, {
+                "id": "mega-x",
+                "name": "Mega Charizard X",
+                "types": ["fire","dragon"],
+                "abilities": ["tough-claws"]
+            },
+            {
+                "id": "mega-y",
+                "name": "Mega Charizard Y",
+                "abilities": ["drought"]
+            }],
+            "types": ["fire","flying"],
+            "abilities": ["blaze",null,"solar-power"],
+            "eggGroups": ["monster","dragon"]
+        },
+
+        "pichu": {
+            "name": "Pichu",
+            "types": ["electric"],
+            "abilities": ["static",null,"lightning-rod"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["pikachu"]
+        },
+        "pikachu": {
+            "name": "Pikachu",
+            "forms": [{
+                "abilities": ["static",null,"lightning-rod"],
+                "eggGroups": ["field","fairy"],
+                "evolutions": ["raichu","raichu.alolan"]
+            },
+            {
+                "id": "cap",
+                "name": "Cap Pikachu",
+                "abilities": ["static"],
+                "colors": [{
+                    "id": "original",
+                    "name": "Original Cap Pikachu"
+                },
+                {
+                    "id": "hoenn",
+                    "name": "Hoenn Cap Pikachu"
+                },
+                {
+                    "id": "sinnoh",
+                    "name": "Sinnoh Cap Pikachu"
+                },
+                {
+                    "id": "unova",
+                    "name": "Unova Cap Pikachu"
+                },
+                {
+                    "id": "kalos",
+                    "name": "Kalos Cap Pikachu"
+                },
+                {
+                    "id": "alola",
+                    "name": "Alola Cap Pikachu"
+                },
+                {
+                    "id": "partner",
+                    "name": "Partner Cap Pikachu"
+                }],
+                "eggGroups": ["undiscovered"]
+            }],
+            "types": ["electric"]
+        },
+        "raichu": {
+            "name": "Raichu",
+            "forms": [{
+                "types": ["electric"],
+                "abilities": ["static",null,"lightning-rod"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Raichu",
+                "types": ["electric","psychic"],
+                "abilities": ["surge-surfer"]
+            }],
+            "eggGroups": ["field","fairy"]
+        },
+
+        "meowth": {
+            "name": "Meowth",
+            "forms": [{
+                "types": ["normal"],
+                "abilities": ["pickup","technician","unnerve"],
+                "evolutions": ["persian"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Meowth",
+                "types": ["dark"],
+                "abilities": ["pickup","technician","rattled"],
+                "evolutions": ["persian.alolan"]
+            }],
+            "eggGroups": ["field"]
+        },
+        "persian": {
+            "name": "Persian",
+            "forms": [{
+                "types": ["normal"],
+                "abilities": ["limber","technician","unnerve"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Persian",
+                "types": ["dark"],
+                "abilities": ["fur-coat","technician","rattled"]
+            }],
+            "eggGroups": ["field"]
+        },
+
+        "zigzagoon": {
+            "name": "Zigzagoon",
+            "types": ["normal"],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"],
+            "evolutions": ["linoone"]
+        },
+        "linoone": {
+            "name": "Linoone",
+            "types": ["normal"],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"]
+        },
+
+        "wurmple": {
+            "name": "Wurmple",
+            "types": ["bug"],
+            "abilities": ["shield-dust",null,"run-away"],
+            "eggGroups": ["bug"],
+            "evolutions": ["silcoon","cascoon"]
+        },
+        "silcoon": {
+            "name": "Silcoon",
+            "types": ["bug"],
+            "abilities": ["shed-skin"],
+            "eggGroups": ["bug"],
+            "evolutions": ["beautifly"]
+        },
+        "beautifly": {
+            "name": "Beautifly",
+            "types": ["bug","flying"],
+            "abilities": ["swarm",null,"rivalry"],
+            "eggGroups": ["bug"]
+        },
+        "cascoon": {
+            "name": "Cascoon",
+            "types": ["bug"],
+            "abilities": ["shed-skin"],
+            "eggGroups": ["bug"],
+            "evolutions": ["dustox"]
+        },
+        "dustox": {
+            "name": "Dustox",
+            "types": ["bug","poison"],
+            "abilities": ["shield-dust",null,"compound-eyes"],
+            "eggGroups": ["bug"]
+        },
+
+        "shellos": {
+            "name": "Shellos",
+            "colors": [{
+                "id": "west-sea",
+                "name": "West Sea Shellos",
+                "evolutions": ["gastrodon.west-sea"],
+                "available": []
+            },
+            {
+                "id": "east-sea",
+                "name": "East Sea Shellos",
+                "evolutions": ["gastrodon.east-sea"]
+            }],
+            "types": ["water"],
+            "abilities": ["sticky-hold","storm-drain","sand-force"],
+            "eggGroups": ["water-1","amorphous"]
+        },
+        "gastrodon": {
+            "name": "Gastrodon",
+            "colors": [{
+                "id": "west-sea",
+                "name": "West Sea Gastrodon",
+                "available": []
+            },
+            {
+                "id": "east-sea",
+                "name": "East Sea Gastrodon"
+            }],
+            "types": ["water","ground"],
+            "abilities": ["sticky-hold","storm-drain","sand-force"],
+            "eggGroups": ["water-1","amorphous"]
+        },
+
+        "cosmog": {
+            "name": "Cosmog",
+            "types": ["psychic"],
+            "abilities": ["unaware"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["cosmoem"]
+        },
+        "cosmoem": {
+            "name": "Cosmoem",
+            "types": ["psychic"],
+            "abilities": ["sturdy"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["solgaleo","lunala"]
+        },
+        "solgaleo": {
+            "name": "Solgaleo",
+            "types": ["psychic","steel"],
+            "abilities": ["full-metal-body"],
+            "eggGroups": ["undiscovered"]
+        },
+        "lunala": {
+            "name": "Lunala",
+            "types": ["psychic","ghost"],
+            "abilities": ["shadow-shield"],
+            "eggGroups": ["undiscovered"]
+        }
+    }
+}

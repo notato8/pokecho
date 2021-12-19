@@ -1,0 +1,22 @@
+{
+    "name": "Pokémon Heart Gold & Soul Silver",
+    "versions": [{
+        "id": "heart-gold",
+        "name": "Pokémon Heart Gold"
+    },
+    {
+        "id": "soul-silver",
+        "name": "Pokémon Soul Silver"
+    }],
+    "predecessor": "platinum",
+    
+    "pokemons": {
+        "pikachu": {
+            "moves": {
+                "egg": [
+
+                ]
+            }
+        }
+    }
+}

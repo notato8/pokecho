@@ -1,0 +1,22 @@
+{
+    "name": "Pokémon Yellow",
+    "predecessor": "red-blue",
+
+    "pokemons": {
+        "pikachu": {
+            "moves": {
+                "level": {
+                    "1": ["thunder-shock","growl"],
+                    "6": ["tail-whip"],
+                    "8": ["thunder-wave"],
+                    "11": ["quick-attack"],
+                    "15": ["double-team"],
+                    "20": ["slam"],
+                    "26": ["thunderbolt"],
+                    "33": ["agility"],
+                    "41": ["thunder"]
+                }
+            }
+        }
+    }
+}

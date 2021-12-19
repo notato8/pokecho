@@ -1,0 +1,44 @@
+{
+    "name": "Pokémon: Let's Go, Pikachu! & Let's Go, Eevee!",
+    "versions": [{
+        "id": "lets-go-pikachu",
+        "name": "Pokémon: Let's Go, Pikachu!"
+    },
+    {
+        "id": "lets-go-eevee",
+        "name": "Pokémon: Let's Go, Eevee!"
+    }],
+    
+    "pokemons": {
+        "pikachu": {
+            "name": "Pikachu",
+            "forms": [{
+                "evolutions": ["raichu","raichu.alolan"]
+            },
+            {
+                "id": "partner",
+                "name": "Partner Pikachu",
+                "colors": [{
+                        "id": "male",
+                        "name": "Partner Pikachu ♂"
+                    },
+                    {
+                        "id": "female",
+                        "name": "Partner Pikachu ♀"
+                    }]
+            }],
+            "types": ["electric"]
+        },
+        "raichu": {
+            "name": "Raichu",
+            "forms": [{
+                "types": ["electric"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Raichu",
+                "types": ["electric","psychic"]
+            }]
+        }
+    }
+}

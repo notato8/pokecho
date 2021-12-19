@@ -1,0 +1,55 @@
+{
+    "name": "Pokémon Ruby & Sapphire",
+    "versions": [{
+        "id": "ruby",
+        "name": "Pokémon Ruby"
+    },
+    {
+        "id": "sapphire",
+        "name": "Pokémon Sapphire"
+    }],
+    "predecessor": "gold-silver",
+
+    "pokemons": {
+        "pikachu": {
+            "abilities": ["static"],
+            "moves": {
+                "tm": [
+                    "focus-punch",
+                    "toxic",
+                    "hidden-power",
+                    "light-screen",
+                    "protect",
+                    "rain-dance",
+                    "frustration",
+                    "iron-tail",
+                    "thunderbolt",
+                    "thunder",
+                    "return",
+                    "dig",
+                    "brick-break",
+                    "double-team",
+                    "shock-wave",
+                    "facade",
+                    "secret-power",
+                    "rest",
+                    "attract",
+                    "strength",
+                    "flash",
+                    "rock-smash"
+                ],
+                "egg": [
+                    "bide",
+                    "charge",
+                    "double-slap",
+                    "encore",
+                    "present",
+                    "reversal",
+                    "volt-tackle",
+                    "wish"
+                ],
+                "tutor": []
+            }
+        }
+    }
+}

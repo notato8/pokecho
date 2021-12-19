@@ -1,0 +1,218 @@
+{
+    "name": "Pokémon Red & Blue",
+    "versions": [{
+        "id": "red",
+        "name": "Pokémon Red"
+    },
+    {
+        "id": "blue",
+        "name": "Pokémon Blue"
+    }],
+
+    "pokemons": {
+        "pikachu": {
+            "name": "Pikachu",
+            "types": ["electric"],
+            "stats": [35,55,30,50,50,90],
+            "experience": "Medium Fast",
+            "moves": {
+                "level": {
+                    "1": ["thunder-shock","growl"],
+                    "9": ["thunder-wave"],
+                    "16": ["quick-attack"],
+                    "26": ["swift"],
+                    "33": ["agility"],
+                    "43": ["thunder"]
+                },
+                "tm": [
+                    "mega-punch",
+                    "mega-kick",
+                    "toxic",
+                    "body-slam",
+                    "take-down",
+                    "double-edge",
+                    "pay-day",
+                    "submission",
+                    "seismic-toss",
+                    "rage",
+                    "thunderbolt",
+                    "thunder",
+                    "mimic",
+                    "double-team",
+                    "reflect",
+                    "bide",
+                    "swift",
+                    "skull-bash",
+                    "rest",
+                    "thunder-wave",
+                    "substitute",
+                    "flash"
+                ]
+            }
+        }
+    },
+
+    "moves": {
+        "absorb": {
+            "name": "Absorb",
+            "type": "grass",
+            "pp": 20,
+            "power": 20,
+            "accuracy": "100"
+        },
+        "acid": {
+            "name": "Acid",
+            "type": "poison",
+            "pp": 30,
+            "power": 40,
+            "accuracy": 100
+        },
+        "acid-armor": {
+            "name": "Acid Armor",
+            "type": "poison",
+            "pp": 40,
+            "power": 0,
+            "accuracy": 0
+        },
+        "agility": {
+            "name": "Agility",
+            "type": "psychic",
+            "pp": 30,
+            "power": 0,
+            "accuracy": 0
+        },
+        "amnesia": {
+            "name": "Amnesia",
+            "type": "psychic",
+            "pp": 20,
+            "power": 0,
+            "accuracy": 0
+        },
+        "aurora-beam": {
+            "name": "Aurora Beam",
+            "type": "ice",
+            "pp": 20,
+            "power": 65,
+            "accuracy": 100
+        },
+        "barrage": {
+            "name": "Barrage",
+            "type": "normal",
+            "pp": 20,
+            "power": 15,
+            "accuracy": 85
+        },
+        "barrier": {
+            "name": "Barrier",
+            "type": "psychic",
+            "pp": 30,
+            "power": 0,
+            "accuracy": 0
+        },
+        "bide": {
+            "name": "Bide",
+            "type": "normal",
+            "pp": 10,
+            "power": 0,
+            "accuracy": 100
+        },
+        "bind": {
+            "name": "Bind",
+            "type": "normal",
+            "pp": 20,
+            "power": 15,
+            "accuracy": 75
+        },
+        "bite": {
+            "name": "Bite",
+            "type": "normal",
+            "pp": 25,
+            "power": 60,
+            "accuracy": 100
+        },
+        "blizzard": {
+            "name": "Blizzard",
+            "type": "ice",
+            "pp": 5,
+            "power": 120,
+            "accuracy": 90
+        },
+        "body-slam": {
+            "name": "Body Slam",
+            "type": "normal",
+            "pp": 15,
+            "power": 85,
+            "accuracy": 100
+        },
+        "bone-club": {
+            "name": "Bone Club",
+            "type": "ground",
+            "pp": 20,
+            "power": 65,
+            "accuracy": 85
+        },
+        "bonemerang": {
+            "name": "Bonemerang",
+            "type": "ground",
+            "pp": 10,
+            "power": 50,
+            "accuracy": 90
+        },
+        "bubble": {
+            "name": "Bubble",
+            "type": "water",
+            "pp": 30,
+            "power": 20,
+            "accuracy": 100
+        },
+        "bubble-beam": {
+            "name": "Bubble Beam",
+            "type": "water",
+            "pp": 20,
+            "power": 65,
+            "accuracy": 100
+        },
+        "clamp": {
+            "name": "Clamp",
+            "type": "water",
+            "pp": 10,
+            "power": 35,
+            "accuracy": 75
+        },
+        "comet-punch": {
+            "name": "Comet Punch",
+            "type": "normal",
+            "pp": 15,
+            "power": 18,
+            "accuracy": 85
+        },
+        "confuse-ray": {
+            "name": "Confuse Ray",
+            "type": "ghost",
+            "pp": 10,
+            "power": 0,
+            "accuracy": 100
+        },
+        "confusion": {
+            "name": "Confusion",
+            "type": "psychic",
+            "pp": 25,
+            "power": 50,
+            "accuracy": 100
+        },
+        "constrict": {
+            "name": "Constrict",
+            "type": "normal",
+            "pp": 35,
+            "power": 10,
+            "accuracy": 100
+        },
+        "conversion": {
+            "name": "Conversion",
+            "type": "normal",
+            "pp": 30,
+            "power": 0,
+            "accuracy": 0
+        }
+    }
+}

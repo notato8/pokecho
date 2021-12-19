@@ -1,0 +1,72 @@
+{
+    "name": "Pokémon Omega Ruby & Alpha Sapphire",
+    "versions": [{
+        "id": "omega-ruby",
+        "name": "Pokémon Omega Ruby"
+    },
+    {
+        "id": "alpha-sapphire",
+        "name": "Pokémon Alpha Sapphire"
+    }],
+    
+    "pokemons": {
+        "pichu": {
+            "name": "Pichu",
+            "types": ["electric"],
+            "abilities": ["static",null,"lightning-rod"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["pikachu"]
+        },
+        "pikachu": {
+            "name": "Pikachu",
+            "forms": [{
+                "abilities": ["static",null,"lightning-rod"],
+                "eggGroups": ["field","fairy"],
+                "evolutions": ["raichu"]
+            },
+            {
+                "id": "cosplay",
+                "name": "Cosplay Pikachu",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            },
+            {
+                "id": "rock-star",
+                "name": "Pikachu Rock Star",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            },
+            {
+                "id": "belle",
+                "name": "Pikachu Belle",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            },
+            {
+                "id": "pop-star",
+                "name": "Pikachu Pop Star",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            },
+            {
+                "id": "phd",
+                "name": "Pikachu, Ph.D.",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            },
+            {
+                "id": "libre",
+                "name": "Pikachu Libre",
+                "abilities": ["lightning-rod"],
+                "eggGroups": ["undiscovered"]
+            }],
+            "types": ["electric"]
+        },
+        "raichu": {
+            "name": "Raichu",
+            "types": ["electric"],
+            "abilities": ["static",null,"lightning-rod"],
+            "eggGroups": ["field","fairy"]
+        }
+    }
+}

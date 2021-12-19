@@ -1,0 +1,82 @@
+{
+    "name": "Pokémon Sun & Moon",
+    "versions": [{
+        "id": "sun",
+        "name": "Pokémon Sun"
+    },
+    {
+        "id": "moon",
+        "name": "Pokémon Moon"
+    }],
+
+    "tms": {
+
+    },
+
+    "pokemons": {
+        "pichu": {
+            "name": "Pichu",
+            "types": ["electric"],
+            "abilities": ["static",null,"lightning-rod"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["pikachu"]
+        },
+        "pikachu": {
+            "name": "Pikachu",
+            "forms": [{
+                "abilities": ["static",null,"lightning-rod"],
+                "eggGroups": ["field","fairy"],
+                "evolutions": ["raichu","raichu.alolan"]
+            },
+            {
+                "id": "cap",
+                "name": "Cap Pikachu",
+                "abilities": ["static"],
+                "colors": [{
+                    "id": "original",
+                    "name": "Original Cap Pikachu"
+                },
+                {
+                    "id": "hoenn",
+                    "name": "Hoenn Cap Pikachu"
+                },
+                {
+                    "id": "sinnoh",
+                    "name": "Sinnoh Cap Pikachu"
+                },
+                {
+                    "id": "unova",
+                    "name": "Unova Cap Pikachu"
+                },
+                {
+                    "id": "kalos",
+                    "name": "Kalos Cap Pikachu"
+                },
+                {
+                    "id": "alola",
+                    "name": "Alola Cap Pikachu"
+                }],
+                "eggGroups": ["undiscovered"]
+            }],
+            "types": ["electric"]
+        },
+        "raichu": {
+            "name": "Raichu",
+            "forms": [{
+                "types": ["electric"],
+                "abilities": ["static",null,"lightning-rod"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Raichu",
+                "types": ["electric","psychic"],
+                "abilities": ["surge-surfer"]
+            }],
+            "eggGroups": ["field","fairy"]
+        }
+    },
+
+    "moves": {
+        
+    }
+}

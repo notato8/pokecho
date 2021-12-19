@@ -1,0 +1,15 @@
+{
+    "name": "Pokémon X & Y",
+    "versions": [{
+        "id": "x",
+        "name": "Pokémon X"
+    },
+    {
+        "id": "y",
+        "name": "Pokémon Y"
+    }],
+    
+    "pokemons": {
+        
+    }
+}

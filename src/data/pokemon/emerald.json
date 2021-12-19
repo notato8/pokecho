@@ -1,0 +1,8 @@
+{
+    "name": "Pokémon Emerald",
+    "predecessor": "ruby-sapphire",
+
+    "pokemons": {
+        "pikachu": {}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Pokémon Platinum",
+    "predecessor": "diamond-pearl",
+
+    "pokemons": {
+        "pikachu": {
+            "moves": {
+                "tutor": [
+                    "helping-hand",
+                    ""
+                ]
+            }
+        }
+    }
+}

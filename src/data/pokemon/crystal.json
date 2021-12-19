@@ -1,0 +1,8 @@
+{
+    "name": "Pokémon Crystal",
+    "predecessor": "gold-silver",
+
+    "pokemons": {
+        "pikachu": {}
+    }
+}

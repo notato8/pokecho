@@ -1,9 +1,8 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, IonSplitPane, IonHeader, IonToolbar, IonMenuButton, IonTitle } from '@ionic/react';
+import { IonApp, IonContent, IonRouterOutlet, IonSplitPane, IonHeader, IonToolbar, IonMenuButton, IonTitle, IonSearchbar, IonButton, IonSelect, IonSelectOption } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Menu from "./components/Menu";
-import Home from './pages/Home';
-import Page1 from "./pages/Page1";
+import Menu from "./components/menu";
+import Pokemon from './pages/pokemon';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -23,35 +22,43 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import "./App.css";
 
-const App = () => (
-    <IonApp>
-        <IonReactRouter>
-            <IonHeader>
-                <IonToolbar>
-                    <IonMenuButton slot="start" autoHide="false"/>
-                    <IonTitle>Pokecho</IonTitle>
-                </IonToolbar>
-            </IonHeader>
-
-            <IonSplitPane contentId="main">
-                <Menu />
-
-                <IonRouterOutlet id="main">
-                    <Route exact path="/home">
-                        <Home />
-                    </Route>
-                    <Route exact path="/">
-                        <Redirect to="/home" />
-                    </Route>
-
-                    <Route exact path="/page1">
-                        <Page1 />
-                    </Route>
-                </IonRouterOutlet>
-            </IonSplitPane>
-        </IonReactRouter>
-    </IonApp>
-);
-
-export default App;
+export default function App() {
+    return (
+        <IonApp>
+            <IonReactRouter>
+                <IonHeader>
+                    <IonToolbar>
+                        <IonMenuButton slot="start"/>
+                        <IonTitle slot="start">Pokecho</IonTitle>
+                        <IonSelect slot="start" value="pokemon" interface="popover">
+                            <IonSelectOption value="pokemon">Pokemon</IonSelectOption>
+                            <IonSelectOption value="monster-hunter">Monster Hunter</IonSelectOption>
+                            <IonSelectOption value="mario-kart">Mario Kart</IonSelectOption>
+                        </IonSelect>
+                        <IonSelect slot="start" value="pokemon" interface="popover">
+                            <IonSelectOption value="pokemon">Pokemon</IonSelectOption>
+                            <IonSelectOption value="moves">Moves</IonSelectOption>
+                        </IonSelect>
+                        <IonSearchbar slot="start" />
+                        <IonButton slot="start">Build Finder</IonButton>
+                    </IonToolbar>
+                </IonHeader>
+                <IonContent>
+                    <IonSplitPane contentId="main">
+                        <Menu />
+                        <IonRouterOutlet id="main">
+                            <Route exact path="/pokemon">
+                                <Pokemon />
+                            </Route>
+                            <Route exact path="/">
+                                <Redirect to="/pokemon" />
+                            </Route>
+                        </IonRouterOutlet>
+                    </IonSplitPane>
+                </IonContent>
+            </IonReactRouter>
+        </IonApp>
+    );
+}

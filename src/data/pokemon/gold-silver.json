@@ -1,0 +1,74 @@
+{
+    "name": "Pokémon Gold & Silver",
+    "versions": [{
+        "id": "gold",
+        "name": "Pokémon Gold"
+    },
+    {
+        "id": "silver",
+        "name": "Pokémon Silver"
+    }],
+    "predecessor": "red-blue",
+
+    "pokemons": {
+        "pikachu": {
+            "stats": [35,55,30,50,40,90],
+            "friendship": 70,
+            "eggGroups": ["Field", "Fairy"],
+            "genderRatio": "50% M, 50% F",
+            "moves": {
+                "level": {
+                    "1": ["thunder-shock", "growl"],
+                    "6": ["tail-whip"],
+                    "8": ["thunder-wave"],
+                    "11": ["quick-attack"],
+                    "15": ["double-team"],
+                    "20": ["slam"],
+                    "26": ["thunderbolt"],
+                    "33": ["agility"],
+                    "41": ["thunder"],
+                    "50": ["light-screen"]
+                },
+                "tm": [
+                    "dynamic-punch",
+                    "headbutt",
+                    "curse",
+                    "rollout",
+                    "toxic",
+                    "zap-cannon",
+                    "hidden-power",
+                    "snore",
+                    "protect",
+                    "rain-dance",
+                    "endure",
+                    "frustration",
+                    "iron-tail",
+                    "thunder",
+                    "return",
+                    "mud-slap",
+                    "double-team",
+                    "swagger",
+                    "sleep-talk",
+                    "swift",
+                    "defense-curl",
+                    "thunder-punch",
+                    "detect",
+                    "rest",
+                    "attract",
+                    "strength",
+                    "flash"
+                ],
+                "egg": [
+                    "bide",
+                    "double-slap",
+                    "encore",
+                    "present",
+                    "reversal"
+                ],
+                "tutor": [
+                    "thunderbolt"
+                ]
+            }
+        }
+    }
+}

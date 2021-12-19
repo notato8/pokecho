@@ -1,0 +1,13 @@
+ion-split-pane {
+    --side-min-width: 300px;
+    --side-max-width: 300px;
+}
+
+ion-button {
+    padding: 0px 8px 0px 8px;
+}
+
+ion-select {
+    min-width: min-content;
+    padding: 0px 8px 0px 8px
+}

@@ -1,0 +1,662 @@
+{
+    "name": "Pokémon Sword & Shield",
+    "versions": [{
+        "id": "sword",
+        "name": "Pokémon Sword",
+        "expansions": [{
+            "id": "expansion-pass",
+            "name": "Pokémon Sword + Expansion Pass"
+        }]
+    },
+    {
+        "id": "shield",
+        "name": "Pokémon Shield",
+        "expansions": [{
+            "id": "expansion-pass",
+            "name": "Pokémon Shield + Expansion Pass"
+        }]
+    }],
+
+    "tms": {
+
+    },
+    
+    "pokemons": {
+        "pichu": {
+            "name": "Pichu",
+            "types": ["electric"],
+            "abilities": ["static",null,"lightning-rod"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["pikachu"]
+        },
+        "pikachu": {
+            "name": "Pikachu",
+            "category": "Mouse",
+            "forms": [{
+                "abilities": ["static",null,"lightning-rod"],
+                "eggGroups": ["field","fairy"],
+                "evolutions": ["raichu","raichu.alolan"]
+            },
+            {
+                "id": "cap",
+                "name": "Cap Pikachu",
+                "abilities": ["static"],
+                "colors": [{
+                    "id": "original",
+                    "name": "Original Cap Pikachu"
+                },
+                {
+                    "id": "hoenn",
+                    "name": "Hoenn Cap Pikachu"
+                },
+                {
+                    "id": "sinnoh",
+                    "name": "Sinnoh Cap Pikachu"
+                },
+                {
+                    "id": "unova",
+                    "name": "Unova Cap Pikachu"
+                },
+                {
+                    "id": "kalos",
+                    "name": "Kalos Cap Pikachu"
+                },
+                {
+                    "id": "alola",
+                    "name": "Alola Cap Pikachu"
+                },
+                {
+                    "id": "partner",
+                    "name": "Partner Cap Pikachu"
+                },
+                {
+                    "id": "world",
+                    "name": "World Cap Pikachu"
+                }],
+                "eggGroups": ["undiscovered"]
+            }],
+            "types": ["electric"],
+            "genderRatio": 50,
+            "catchRate": 190,
+            "eggCycles": 10,
+            "experienceYield": 112,
+            "levelingRate": "medium-fast",
+            "evYield": [0,0,0,0,0,2],
+            "baseFriendship": 50,
+            "heldItems": {"5": "light-ball"},
+            "stats": [35,55,40,50,50,90],
+            "moves": {
+                "1": ["play-nice","sweet-kiss","nuzzle","nasty-plot","charm","thunder-shock","tail-whip","growl","quick-attack"],
+                "4": ["thunder-wave"],
+                "8": ["double-team"],
+                "12": ["electro-ball"],
+                "16": ["feint"],
+                "20": ["spark"],
+                "24": ["agility"],
+                "28": ["slam"],
+                "32": ["discharge"],
+                "36": ["thunderbolt"],
+                "40": ["light-screen"],
+                "44": ["thunder"],
+                "tm": [
+                    "mega-punch",
+                    "mega-kick",
+                    "pay-day",
+                    "thunder-punch",
+                    "thunder-wave",
+                    "dig",
+                    "light-screen",
+                    "reflect",
+                    "rest",
+                    "thief",
+                    "snore",
+                    "protect",
+                    "charm",
+                    "attract",
+                    "rain-dance",
+                    "facade",
+                    "swift",
+                    "helping-hand",
+                    "brick-break",
+                    "fling",
+                    "round",
+                    "volt-switch",
+                    "electroweb",
+                    "draining-kiss",
+                    "electric-terrain",
+                    "body-slam",
+                    "surf",
+                    "thunderbolt",
+                    "thunder",
+                    "agility",
+                    "substitute",
+                    "reversal",
+                    "endure",
+                    "sleep-talk",
+                    "encore",
+                    "iron-tail",
+                    "uproar",
+                    "nasty-plot",
+                    "grass-knot",
+                    "electro-ball",
+                    "wild-charge",
+                    "play-rough"
+                ],
+                "egg": [
+                    "charge",
+                    "disarming-voice",
+                    "fake-out",
+                    "flail",
+                    "present",
+                    "tickle",
+                    "wish"
+                ],
+                "tutor": ["rising-voltage"]
+            }
+        },
+        "raichu": {
+            "name": "Raichu",
+            "forms": [{
+                "types": ["electric"],
+                "abilities": ["static",null,"lightning-rod"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Raichu",
+                "types": ["electric","psychic"],
+                "abilities": ["surge-surfer"]
+            }],
+            "eggGroups": ["field","fairy"]
+        },
+
+        "nidoran": {
+            "name": "Nidoran",
+            "forms": [{
+                "id": "male",
+                "name": "Nidoran ♂",
+                "evolutions": ["nidorino"]
+            },
+            {
+                "id": "female",
+                "name": "Nidoran ♀",
+                "evolutions": ["nidorina"]
+            }],
+            "types": ["poison"],
+            "abilities": ["poison-point","rivalry","hustle"],
+            "eggGroups": ["monster","field"]
+        },
+        "nidorino": {
+            "name": "Nidorino",
+            "types": ["poison"],
+            "abilities": ["poison-point","rivalry","hustle"],
+            "eggGroups": ["monster","field"],
+            "evolutions": ["nidoking"]
+        },
+        "nidoking": {
+            "name": "Nidoking",
+            "types": ["poison","ground"],
+            "abilities": ["poison-point","rivalry","sheer-force"],
+            "eggGroups": ["monster","field"]
+        },
+        "nidorina": {
+            "name": "Nidorina",
+            "types": ["poison"],
+            "abilities": ["poison-point","rivalry","hustle"],
+            "eggGroups": ["undiscovered"],
+            "evolutions": ["nidoqueen"]
+        },
+        "nidoqueen": {
+            "name": "Nidoqueen",
+            "types": ["poison","ground"],
+            "abilities": ["poison-point","rivalry","sheer-force"],
+            "eggGroups": ["undiscovered"]
+        },
+
+        "meowth": {
+            "name": "Meowth",
+            "forms": [{
+                "types": ["normal"],
+                "abilities": ["pickup","technician","unnerve"],
+                "evolutions": ["persian"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Meowth",
+                "types": ["dark"],
+                "abilities": ["pickup","technician","rattled"],
+                "evolutions": ["persian.alolan"]
+            },
+            {
+                "id": "galarian",
+                "name": "Galarian Meowth",
+                "types": ["steel"],
+                "abilities": ["pickup","tough-claws","unnerve"],
+                "evolutions": ["perrserker"]
+            }],
+            "eggGroups": ["field"]
+        },
+        "persian": {
+            "name": "Persian",
+            "forms": [{
+                "types": ["normal"],
+                "abilities": ["limber","technician","unnerve"]
+            },
+            {
+                "id": "alolan",
+                "name": "Alolan Persian",
+                "types": ["dark"],
+                "abilities": ["fur-coat","technician","rattled"]
+            }],
+            "eggGroups": ["field"]
+        },
+        "perrserker": {
+            "name": "Perrserker",
+            "types": ["steel"],
+            "abilities": ["battle-armor","tough-claws","steely-spirit"],
+            "eggGroups": ["field"]
+        },
+
+        "mr-mime": {
+            "name": "Mr. Mime",
+            "types": ["psychic","fairy"]
+        },
+
+        "zigzagoon": {
+            "name": "Zigzagoon",
+            "forms": [{
+                "types": ["normal"],
+                "evolutions": ["linoone"]
+            },
+            {
+                "id": "galarian",
+                "name": "Galarian Zigzagoon",
+                "types": ["dark","normal"],
+                "evolutions": ["linoone.galarian"]
+            }],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"]
+        },
+        "linoone": {
+            "name": "Linoone",
+            "forms": [{
+                "types": ["normal"]
+            },
+            {
+                "id": "galarian",
+                "name": "Galarian Linoone",
+                "types": ["dark","normal"],
+                "evolutions": ["obstagoon"]
+            }],
+            "abilities": ["pickup","gluttony","quick-feet"],
+            "eggGroups": ["field"]
+        },
+        "obstagoon": {
+            "name": "Obstagoon",
+            "types": ["dark","normal"],
+            "abilities": ["reckless","guts","defiant"],
+            "eggGroups": ["field"]
+        },
+
+        "shedinja": {
+            "name": "Shedinja",
+            "stats": [1,90,45,30,30,40]
+        },
+
+        "shellos": {
+            "name": "Shellos",
+            "colors": [{
+                "id": "west-sea",
+                "name": "West Sea Shellos",
+                "available": []
+            },
+            {
+                "id": "east-sea",
+                "name": "East Sea Shellos"
+            }],
+            "types": ["water"],
+            "abilities": ["sticky-hold","storm-drain","sand-force"],
+            "eggGroups": ["water-1","amorphous"],
+            "evolutions": ["gastrodon"]
+        },
+        "gastrodon": {
+            "name": "Gastrodon",
+            "colors": [{
+                "id": "west-sea",
+                "name": "West Sea Gastrodon",
+                "available": []
+            },
+            {
+                "id": "east-sea",
+                "name": "East Sea Gastrodon"
+            }],
+            "types": ["water","ground"],
+            "abilities": ["sticky-hold","storm-drain","sand-force"],
+            "eggGroups": ["water-1","amorphous"]
+        },
+
+        "grookey": {
+            "name": "Grookey",
+            "types": ["grass"],
+            "abilities": ["overgrow",null,"grassy-surge"],
+            "eggGroups": ["field","grass"],
+            "stats": [50,65,50,40,40,65],
+            "moves": {
+                "1": ["scratch","growl"],
+                "6": ["branch-poke"],
+                "8": ["taunt"],
+                "12": ["razor-leaf"],
+                "17": ["screech"],
+                "20": ["knock-off"],
+                "24": ["slam"],
+                "28": ["uproar"],
+                "32": ["wood-hammer"],
+                "36": ["endeavor"],
+                "tm": [
+                    "mega-punch",
+                    "mega-kick",
+                    "magical-leaf",
+                    "solar-beam",
+                    "solar-blade",
+                    "screech",
+                    "rest",
+                    "snore",
+                    "protect",
+                    "giga-drain",
+                    "attract",
+                    "sunny-day",
+                    "facade",
+                    "swift",
+                    "u-turn",
+                    "assurance",
+                    "fling",
+                    "drain-punch",
+                    "round",
+                    "acrobatics",
+                    "false-swipe",
+                    "swords-dance",
+                    "low-kick",
+                    "focus-energy",
+                    "substitute",
+                    "endure",
+                    "sleep-talk",
+                    "uproar",
+                    "taunt",
+                    "energy-ball",
+                    "grass-knot",
+                    "work-up"
+                ],
+                "egg": [
+                    "fake-out",
+                    "growth",
+                    "hammer-arm",
+                    "leech-seed",
+                    "nature-power",
+                    "strength",
+                    "worry-seed"
+                ],
+                "tutor": [
+                    "grass-pledge"
+                ]
+            },
+            "evolutions": ["thwackey"]
+        },
+        "thwackey": {
+            "name": "Thwackey",
+            "types": ["grass"],
+            "abilities": ["overgrow",null,"grassy-surge"],
+            "eggGroups": ["field","grass"],
+            "stats": [70,85,70,55,60,80],
+            "moves": {
+                "level": [
+                    "double-hit",
+                    "scratch",
+                    "growl",
+                    "branch-poke",
+                    "taunt",
+                    "razor-leaf",
+                    "screech",
+                    "knock-off",
+                    "slam",
+                    "uproar",
+                    "wood-hammer",
+                    "endeavor"
+                ],
+                "tm": [
+                    "mega-punch",
+                    "mega-kick",
+                    "magical-leaf",
+                    "solar-beam",
+                    "solar-blade",
+                    "screech",
+                    "rest",
+                    "snore",
+                    "protect",
+                    "giga-drain",
+                    "attract",
+                    "sunny-day",
+                    "facade",
+                    "swift",
+                    "u-turn",
+                    "assurance",
+                    "fling",
+                    "drain-punch",
+                    "round",
+                    "acrobatics",
+                    "false-swipe",
+                    "swords-dance",
+                    "low-kick",
+                    "focus-energy",
+                    "substitute",
+                    "endure",
+                    "sleep-talk",
+                    "uproar",
+                    "taunt",
+                    "energy-ball",
+                    "grass-knot",
+                    "work-up"
+                ],
+                "tutor": [
+                    "grass-pledge"
+                ],
+                "evolution": "double-hit"
+            },
+            "evolutions": ["rillaboom"]
+        },
+        "rillaboom": {
+            "forms": [{},{  
+                "id": "gigantamax", 
+                "name": "Gigantamax Rillaboom"
+            }],
+            "name": "Rillaboom",
+            "types": ["grass"],
+            "abilities": ["overgrow",null,"grassy-surge"],
+            "eggGroups": ["field","grass"],
+            "stats": [100,125,90,60,70,85],
+            "moves": {
+                "level": [
+                    "drum-beating",
+                    "double-hit",
+                    "grassy-terrain",
+                    "noble-roar",
+                    "scratch",
+                    "growl",
+                    "branch-poke",
+                    "taunt",
+                    "razor-leaf",
+                    "screech",
+                    "knock-off",
+                    "slam",
+                    "uproar",
+                    "wood-hammer",
+                    "endeavor",
+                    "boomburst"
+                ],
+                "tm": [
+                    "mega-punch",
+                    "mega-kick",
+                    "hyper-beam",
+                    "giga-impact",
+                    "magical-leaf",
+                    "solar-beam",
+                    "solar-blade",
+                    "screech",
+                    "rest",
+                    "snore",
+                    "protect",
+                    "scary-face",
+                    "giga-drain",
+                    "attract",
+                    "sunny-day",
+                    "facade",
+                    "swift",
+                    "brick-break",
+                    "bullet-seed",
+                    "mud-shot",
+                    "u-turn",
+                    "assurance",
+                    "fling",
+                    "drain-punch",
+                    "round",
+                    "acrobatics",
+                    "bulldoze",
+                    "snarl",
+                    "grassy-terrain",
+                    "false-swipe",
+                    "brutal-swing",
+                    "stomping-tantrum",
+                    "swords-dance",
+                    "body-slam",
+                    "low-kick",
+                    "earthquake",
+                    "focus-energy",
+                    "substitute",
+                    "endure",
+                    "sleep-talk",
+                    "uproar",
+                    "taunt",
+                    "superpower",
+                    "hyper-voice",
+                    "bulk-up",
+                    "focus-blast",
+                    "energy-ball",
+                    "earth-power",
+                    "leaf-storm",
+                    "grass-knot",
+                    "work-up",
+                    "darkest-lariat",
+                    "high-horsepower",
+                    "body-press"
+                ],
+                "tutor": [
+                    "frenzy-plant",
+                    "grass-pledge"
+                ],
+                "evolution": "drum-beating"
+            }
+        },
+
+        "sobble": {
+            "name": "Sobble",
+            "types": ["water"],
+            "abilities": ["torrent",null,"sniper"],
+            "eggGroups": ["water-1","field"],
+            "evolutions": ["drizzile"]
+        },
+        "drizzile": {
+            "name": "Drizzile",
+            "types": ["water"],
+            "abilities": ["torrent",null,"sniper"],
+            "eggGroups": ["water-1","field"],
+            "evolutions": ["inteleon"]
+        },
+        "inteleon": {
+            "name": "Inteleon",
+            "forms": [{},{
+                "id": "gigantamax",
+                "name": "Gigantamax Inteleon"
+            }],
+            "types": ["water"],
+            "abilities": ["torrent",null,"sniper"],
+            "eggGroups": ["water-1","field"]
+        },
+
+        "scorbunny": {
+            "name": "Scorbunny",
+            "types": ["fire"],
+            "abilities": ["blaze",null,"libero"],
+            "eggGroups": ["field","human-like"],
+            "evolutions": ["raboot"]
+        },
+        "raboot": {
+            "name": "Raboot",
+            "types": ["fire"],
+            "abilities": ["blaze",null,"libero"],
+            "eggGroups": ["field","human-like"],
+            "evolutions": ["cinderace"]
+        },
+        "cinderace": {
+            "name": "Cinderace",
+            "forms": [{},{
+                "id": "gigantamax",
+                "name": "Gigantamax Cinderace"
+            }],
+            "types": ["fire"],
+            "abilities": ["blaze",null,"libero"],
+            "eggGroups": ["field","human-like"]
+        },
+
+        "eternatus": {
+            "name": "Eternatus",
+            "forms": [{
+                    "stats": [140,85,94,145,95,130]
+                },
+                {
+                "id": "eternamax",
+                "name": "Eternamax Eternatus",
+                "stats": [255,115,250,125,250,130]
+            }],
+            "types": ["poison","dragon"],
+            "abilities": ["pressure"],
+            "eggGroups": ["undiscovered"]
+        }
+    },
+
+    "moves": {
+        "drum-beating": {
+            "name": "Drum Beating",
+            "type": "grass",
+            "category": "physical",
+            "pp": 10,
+            "power": 80,
+            "accuracy": 100,
+            "text": "The user plays its drum, controlling the drum's roots to attack the target. This also lowers the target's Speed stat."
+        },
+        "play-nice": {
+            "name": "Play Nice",
+            "type": "normal",
+            "category": "status",
+            "pp": 20,
+            "power": 0,
+            "accuracy": 0,
+            "text": "The user and the target become friends, and the target loses its will to fight. This lowers the target's Attack stat."
+        },
+        "thunder-shock": {
+            "name": "Thunder Shock",
+            "type": "electric",
+            "category": "special",
+            "pp": 30,
+            "power": 40,
+            "accuracy": 100,
+            "text": "A jolt of electricity crashers down on the target to inflict damage. This may also leave the target with paralysis."
+        },
+        "thunderbolt": {
+            "name": "Thunderbolt",
+            "type": "electric",
+            "category": "special",
+            "pp": 15,
+            "power": 90,
+            "accuracy": 100,
+            "text": "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
+        }
+    }
+}
