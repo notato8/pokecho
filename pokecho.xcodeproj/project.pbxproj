@@ -6,10 +6,27 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		EA863D4C276F04A500E3B236 /* capacitor.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
+		EA863D4D276F04A500E3B236 /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		EA863D4E276F04A500E3B236 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		EA863D4F276F04A500E3B236 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		EA863D50276F04A500E3B236 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EA863D51276F04A500E3B236 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		EA863D52276F04A500E3B236 /* ionic.config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ionic.config.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		EA863D45276F046500E3B236 = {
 			isa = PBXGroup;
 			children = (
+				EA863D50276F04A500E3B236 /* .gitignore */,
+				EA863D4C276F04A500E3B236 /* capacitor.config.json */,
+				EA863D52276F04A500E3B236 /* ionic.config.json */,
+				EA863D4D276F04A500E3B236 /* package-lock.json */,
+				EA863D51276F04A500E3B236 /* package.json */,
+				EA863D4E276F04A500E3B236 /* public */,
+				EA863D4F276F04A500E3B236 /* src */,
 			);
 			sourceTree = "<group>";
 		};
